@@ -1,0 +1,5 @@
+Notes on training implementation: 
+For the situation when $count(w, c) = 0$, we simply set the $loglikelihood[w,c] = 0$,
+unless we use smoothing in which case $loglikelihood[w,c]$ is set to the smoothing factor K divided by the sum of the smoothing factor $K$ for all words in $V$ (see lines 41-44 in cell above).
+
+For testing: If the encountered word $w_{test}$ does not appear in our vocabulary $V$, we simply ignore it and proceed to the next word in the sentence (see lines 68-69 in cell above). This technique was taken from the book (Jurafsky and Martin) in chapter 4.2 regarding the problem of unkown words in testing data. 
