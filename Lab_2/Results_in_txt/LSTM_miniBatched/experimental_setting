@@ -6,3 +6,4 @@ Dropout p = 0.5
 LSTM: 
 Input size = 300
 Hidden size = 168??
+Total parameters: 6'534'785

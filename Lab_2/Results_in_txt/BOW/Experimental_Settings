@@ -1,0 +1,7 @@
+Adam optimizer with lr = 0.0005
+iterations = 30'000
+Dropout p = NONE
+
+BOW
+Embedding size = 18280 (vocab size)
+total parameters: 91'405
