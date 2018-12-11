@@ -1,0 +1,8 @@
+Batch Size = 25
+Adam optimizer with lr = 2e-4
+iterations = 30'000
+Dropout p = 0.5
+
+LSTM: 
+Input size = 300
+Hidden size = 168??
