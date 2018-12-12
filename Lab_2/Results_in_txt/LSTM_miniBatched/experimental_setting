@@ -1,6 +1,6 @@
 Batch Size = 25
 Adam optimizer with lr = 2e-4
-iterations = 30'000
+iterations = 10'000
 Dropout p = 0.5
 
 LSTM: 
